@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  padding: 0 2rem;
+}
+
+.logo {
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+}
+
+.content {
+   min-height: calc(100vh - 64px - 70px);
+   padding: 1.5rem 0;
+}
+
+.home-title {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+  margin: 1.5rem 0 2.5rem;
+  text-align: center;
+  color: #558b2f;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.card .card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+.card-action {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #3b6420 !important;
+}
+
+.recipe {
+  font-size: 1.2rem;
+}
+
+.recipe h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  margin: 2.5rem 0 1.7rem 0;
+  text-align: center;
+}
+
+.recipe img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.7rem;
+  max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
+  width: 760px;
+  height: 420px;
+  display: block;
+  margin: 0 auto;
+}
+
+table {
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  width: 70%;
+
+}
+
+table td, table th {
+  border: 1px solid grey;
+  padding: 5px 5px;
+}
+
+.input-field,
+input#search {
+  margin-bottom: 0;
+}
+
+.footer-about {
+  margin-left: 3rem;
+}
