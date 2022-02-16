@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/project-react-recipes-spa/static/css/main.e2b5d960.css",
+    "main.js": "/project-react-recipes-spa/static/js/main.a3f99f0c.js",
+    "index.html": "/project-react-recipes-spa/index.html",
+    "main.e2b5d960.css.map": "/project-react-recipes-spa/static/css/main.e2b5d960.css.map",
+    "main.a3f99f0c.js.map": "/project-react-recipes-spa/static/js/main.a3f99f0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b5d960.css",
+    "static/js/main.a3f99f0c.js"
+  ]
+}
